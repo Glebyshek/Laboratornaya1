@@ -25,7 +25,7 @@ public class MissionFormatter {
         for (Sorcerer s : mission.getSorcerers()) {
             sb.append("    ").append(i).append(") ")
               .append(s.getName())
-              .append(" — ранг: ").append(s.getRank())
+              .append(" - ранг: ").append(s.getRank())
               .append("\n");
             i++;
         }
