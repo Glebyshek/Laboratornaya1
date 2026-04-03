@@ -39,6 +39,6 @@ public class Technique {
     }
     @Override
     public String toString() {
-        return name + " (" + type + ") — владелец: " + owner + ", урон: " + damage;
+        return name + " (" + type + ") - владелец: " + owner + ", урон: " + damage;
     }
 }
