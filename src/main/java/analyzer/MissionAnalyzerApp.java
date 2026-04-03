@@ -22,7 +22,7 @@ public class MissionAnalyzerApp {
         }
         File file = new File(filePath);
         if (!file.exists()) {
-            System.out.println("Ошибка: файл не найден — " + filePath);
+            System.out.println("Ошибка: файл не найден - " + filePath);
             return;
         }
         try {
